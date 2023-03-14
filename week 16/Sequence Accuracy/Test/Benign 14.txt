@@ -1,0 +1,123 @@
+restart_syscall(<... resuming interrupted read ...>) = 1
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53058), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e2228, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53062), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e222c, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53064), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 48
+futex(0x55c9ca9e222c, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53066), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e222c, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53068), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 48
+futex(0x55c9ca9e222c, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53070), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e2228, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53072), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 48
+futex(0x55c9ca9e2228, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53076), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e2228, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53078), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e2228, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53080), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e222c, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53082), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e222c, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53084), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e222c, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53086), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e222c, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53088), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e2228, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53090), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e2228, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53092), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e2228, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53094), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e2228, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53096), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e222c, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53098), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e222c, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53100), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e222c, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53102), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e222c, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53104), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 48
+futex(0x55c9ca9e2228, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53106), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 49
+futex(0x55c9ca9e2228, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53110), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e2228, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53112), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e222c, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53114), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e222c, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53116), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 48
+futex(0x55c9ca9e222c, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53118), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e222c, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53120), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e2228, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53122), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e2228, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1) = 1 ([{fd=33, revents=POLLIN}])
+accept(33, {sa_family=AF_INET6, sin6_port=htons(53124), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:10.9.0.5", &sin6_addr), sin6_scope_id=0}, [128->28]) = 36
+futex(0x55c9ca9e2228, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x55c9ca9e2240, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=33, events=POLLIN}, {fd=35, events=POLLIN}], 2, -1 <detached ...>

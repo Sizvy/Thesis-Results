@@ -1,0 +1,7 @@
+print(malicious_list_of_sysCall_with_frequency_1)
+# print(malicious_list_of_sysCall_with_frequency_2)
+# print(malicious_list_of_sysCall_with_frequency_3)
+# print(malicious_list_of_sysCall_with_frequency_4)
+# print(malicious_list_of_sysCall_with_frequency_5)
+# print(malicious_list_of_sysCall_with_frequency_6)
+# print(benign_list_of_sysCall_with_frequency)

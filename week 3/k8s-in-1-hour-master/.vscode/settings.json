@@ -1,0 +1,5 @@
+{
+    "yaml.schemas": {
+        "kubernetes://schema/apps/v1%40deployment": "file:///e%3A/study%20materials/Everything%20of%204-1/Thesis/week%203/k8s-in-1-hour-master/mongo.yaml"
+    }
+}
