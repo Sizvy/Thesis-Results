@@ -13,7 +13,7 @@ Precision=[]
 Recall=[]
 F1_Score=[]
 
-SourceFolder = 'E:\study materials\Everything of 4-1\Thesis\week 15\Freq Accuracy\Benign Text Versions\\'
+SourceFolder = 'E:\study materials\Everything of 4-1\All works about thesis\week 15\Freq Accuracy\Benign Text Versions\\'
 
 Alldata=[]
 # iterate all files from a directory

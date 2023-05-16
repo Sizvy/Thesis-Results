@@ -1,0 +1,6 @@
+There are several unique factors of a container  that make it hard a detection system to detection malicious code injection in containerized environment than the usual ones. For example, containers are designed to be lightweight and flexible, which means they can be spun up and down quickly and frequently. This dynamic nature makes it challenging to monitor and detect malicious code injection because containers may only exist for a short period of time. In addition to that, the limited visibility of container can make it difficult to monitor for malicious code injection, especially if the attacker has gained access to the container's underlying host system. Moreover, Containers typically have a large attack surface, which means there are many potential entry points like the container image, the container runtime, or the application running inside the container for attackers to inject malicious code. Last but not the least, container environments can be complex, with multiple layers of abstraction and technologies in play. This complexity can make it challenging to identify and remediate malicious code injection. All these factors combined make it challenging for typical detection system to identify malicious code injection and take appropiate action.
+
+
+
+
+

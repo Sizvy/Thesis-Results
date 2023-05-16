@@ -13,7 +13,7 @@ for field in range(1,7):
     Recall=[]
     F1_Score=[]
 
-    SourceFolder = 'E:\study materials\Everything of 4-1\Thesis\week 15\Freq Accuracy\Benign Text Versions\\'
+    SourceFolder = 'E:\study materials\Everything of 4-1\All works about thesis\week 15\Freq Accuracy\Benign Text Versions\\'
 
     Alldata=[]
     # iterate all files from a directory
@@ -52,7 +52,7 @@ for field in range(1,7):
     # print(BenignSyscallWithMaxFreq)
 
 
-    SourceFolder = 'E:\study materials\Everything of 4-1\Thesis\week 15\Freq Accuracy\Benign Text Versions(Testing Data)\\'
+    SourceFolder = 'E:\study materials\Everything of 4-1\All works about thesis\week 15\Freq Accuracy\Benign Text Versions(Testing Data)\\'
     Alldata_mal=[]
     # iterate all files from a directory
     for file_name in os.listdir(SourceFolder):
@@ -143,7 +143,7 @@ for field in range(1,7):
     ############################################################################################################################################################################
 
 
-    SourceFolder = 'E:\study materials\Everything of 4-1\Thesis\week 15\Freq Accuracy\Malicious'+str(field)+' Text Versions\\'
+    SourceFolder = 'E:\study materials\Everything of 4-1\All works about thesis\week 15\Freq Accuracy\Malicious'+str(field)+' Text Versions\\'
     Alldata_mal=[]
     # iterate all files from a directory
     for file_name in os.listdir(SourceFolder):
@@ -242,8 +242,8 @@ for field in range(1,7):
     plt.plot(X, Precision, label = "Precision", linestyle='--')
     plt.plot(X, Recall, label = "Recall",linestyle=':')
     plt.plot(X, F1_Score, label = "F1 Score", linestyle='-')
-    plt.xlabel('Set of Syscalls', fontsize=12)
-    plt.ylabel('Metrics value', fontsize=12)
+    plt.xlabel('Set of Syscalls', fontsize=15)
+    plt.ylabel('Metrics value', fontsize=15)
     plt.title('Impact of Each System call with Modified field='+str(field))
     plt.legend(fontsize=12)
     plt.show()
