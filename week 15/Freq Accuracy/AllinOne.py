@@ -52,7 +52,7 @@ for key, value in BenignSyscallWithFreq.items():
 # print(BenignSyscallWithMaxFreq)
 
 
-SourceFolder = 'E:\study materials\Everything of 4-1\Thesis\week 15\Freq Accuracy\Malicious2 Text Versions\\'
+SourceFolder = 'E:\study materials\Everything of 4-1\All works about thesis\week 15\Freq Accuracy\Malicious2 Text Versions\\'
 Alldata_mal=[]
 # iterate all files from a directory
 for file_name in os.listdir(SourceFolder):
@@ -156,7 +156,7 @@ print('Benign Done')
 ############################################################################################################################################################################
 
 
-SourceFolder = 'E:\study materials\Everything of 4-1\Thesis\week 15\Freq Accuracy\Malicious'+str(field)+' Text Versions\\'
+SourceFolder = 'E:\study materials\Everything of 4-1\All works about thesis\week 15\Freq Accuracy\Malicious'+str(field)+' Text Versions\\'
 Alldata_mal=[]
 # iterate all files from a directory
 for file_name in os.listdir(SourceFolder):
