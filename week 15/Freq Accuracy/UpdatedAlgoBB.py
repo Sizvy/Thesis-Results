@@ -2,7 +2,7 @@ import numpy as np
 import os
 import math
 
-SourceFolder = 'E:\study materials\Everything of 4-1\Thesis\week 15\Freq Accuracy\Benign Text Versions\\'
+SourceFolder = 'E:\study materials\Everything of 4-1\All works about thesis\week 15\Freq Accuracy\Benign Text Versions\\'
 
 Alldata=[]
 # iterate all files from a directory
@@ -41,7 +41,7 @@ for key, value in BenignSyscallWithFreq.items():
 # print(BenignSyscallWithMaxFreq)
 
 
-SourceFolder = 'E:\study materials\Everything of 4-1\Thesis\week 15\Freq Accuracy\Malicious1 Text Versions\\'
+SourceFolder = 'E:\study materials\Everything of 4-1\All works about thesis\week 15\Freq Accuracy\Malicious1 Text Versions\\'
 Alldata_mal=[]
 # iterate all files from a directory
 for file_name in os.listdir(SourceFolder):
@@ -113,7 +113,7 @@ print(Threshold)
 
 # testing
 
-SourceFolder = 'E:\study materials\Everything of 4-1\Thesis\week 15\Freq Accuracy\Benign Text Versions(Testing Data)\\'
+SourceFolder = 'E:\study materials\Everything of 4-1\All works about thesis\week 15\Freq Accuracy\Benign Text Versions(Testing Data)\\'
 
 Alldata=[]
 # iterate all files from a directory
