@@ -1,0 +1,258 @@
+136244 13:08:59.280547104 0 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=1024 pos=29933568 
+136254 13:08:59.280574268 0 mysqld (33196) < pwrite res=1024 data= 
+136261 13:08:59.280592030 0 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29934592 
+136262 13:08:59.280593053 0 mysqld (33196) < pwrite res=512 data= 
+136654 13:08:59.284092622 0 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29934592 
+136669 13:08:59.284119205 0 mysqld (33196) < pwrite res=512 data= 
+136870 13:08:59.285597668 5 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29934592 
+136877 13:08:59.285624031 5 mysqld (33196) < pwrite res=512 data= 
+136881 13:08:59.285635758 5 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29935104 
+136882 13:08:59.285636721 5 mysqld (33196) < pwrite res=512 data= 
+137173 13:08:59.286697146 5 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29935104 
+137184 13:08:59.286716422 5 mysqld (33196) < pwrite res=512 data= 
+137516 13:08:59.289043123 5 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29935104 
+137517 13:08:59.289061096 5 mysqld (33196) < pwrite res=512 data= 
+137596 13:08:59.289418574 0 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29935104 
+137602 13:08:59.289431896 0 mysqld (33196) < pwrite res=512 data= 
+137603 13:08:59.289436466 0 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29935616 
+137604 13:08:59.289437298 0 mysqld (33196) < pwrite res=512 data= 
+138110 13:08:59.293084693 5 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29935616 
+138118 13:08:59.293114374 5 mysqld (33196) < pwrite res=512 data= 
+139046 13:08:59.298736991 5 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29935616 
+139047 13:08:59.298789757 5 mysqld (33196) < pwrite res=512 data= 
+154271 13:08:59.394007109 5 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29935616 
+154276 13:08:59.394040909 5 mysqld (33196) < pwrite res=512 data= 
+156095 13:08:59.401907542 2 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=65536 pos=65536 
+156102 13:08:59.401954293 2 mysqld (33191) < pwrite res=65536 data= 
+156466 13:08:59.403696307 2 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=65536 pos=131072 
+156468 13:08:59.403708466 2 mysqld (33191) < pwrite res=65536 data= 
+156913 13:08:59.405961334 5 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=65536 pos=0 
+156914 13:08:59.405993491 5 mysqld (33191) < pwrite res=65536 data= 
+239931 13:08:59.901590754 1 mysqld (33192) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=512 
+239932 13:08:59.901618590 1 mysqld (33192) < pwrite res=512 data= 
+275476 13:09:00.436766561 3 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=1024 pos=29935616 
+275477 13:09:00.436794698 3 mysqld (33196) < pwrite res=1024 data= 
+275482 13:09:00.436818414 3 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29936640 
+275483 13:09:00.436819577 3 mysqld (33196) < pwrite res=512 data= 
+275595 13:09:00.439758651 3 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29936640 
+275597 13:09:00.439778799 3 mysqld (33196) < pwrite res=512 data= 
+275643 13:09:00.440415200 3 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29936640 
+275644 13:09:00.440432120 3 mysqld (33196) < pwrite res=512 data= 
+275645 13:09:00.440436480 3 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29937152 
+275646 13:09:00.440437282 3 mysqld (33196) < pwrite res=512 data= 
+275753 13:09:00.442831644 4 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29937152 
+275754 13:09:00.442853266 4 mysqld (33196) < pwrite res=512 data= 
+275786 13:09:00.443356640 4 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29937152 
+275787 13:09:00.443377369 4 mysqld (33196) < pwrite res=512 data= 
+275788 13:09:00.443383634 4 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29937664 
+275789 13:09:00.443385318 4 mysqld (33196) < pwrite res=512 data= 
+275920 13:09:00.446599985 4 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29937664 
+275925 13:09:00.446626939 4 mysqld (33196) < pwrite res=512 data= 
+284112 13:09:00.492773025 5 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29937664 
+284122 13:09:00.492803106 5 mysqld (33196) < pwrite res=512 data= 
+354640 13:09:01.059027997 5 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=1024 pos=29937664 
+354648 13:09:01.059056775 5 mysqld (33196) < pwrite res=1024 data= 
+354653 13:09:01.059074487 5 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29938688 
+354654 13:09:01.059075449 5 mysqld (33196) < pwrite res=512 data= 
+354812 13:09:01.062999930 3 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29938688 
+354816 13:09:01.063021882 3 mysqld (33196) < pwrite res=512 data= 
+354965 13:09:01.063674201 4 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29938688 
+354966 13:09:01.063691191 4 mysqld (33196) < pwrite res=512 data= 
+354969 13:09:01.063707039 4 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29939200 
+354970 13:09:01.063708011 4 mysqld (33196) < pwrite res=512 data= 
+355123 13:09:01.066332857 4 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29939200 
+355124 13:09:01.066363320 4 mysqld (33196) < pwrite res=512 data= 
+355169 13:09:01.067164132 5 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29939200 
+355171 13:09:01.067185563 5 mysqld (33196) < pwrite res=512 data= 
+355173 13:09:01.067190615 5 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29939712 
+355174 13:09:01.067191397 5 mysqld (33196) < pwrite res=512 data= 
+355731 13:09:01.070261703 5 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29939712 
+355735 13:09:01.070285068 5 mysqld (33196) < pwrite res=512 data= 
+361828 13:09:01.100222169 2 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29939712 
+361835 13:09:01.100266515 2 mysqld (33196) < pwrite res=512 data= 
+398286 13:09:01.403256644 1 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=65536 pos=65536 
+398295 13:09:01.403306913 1 mysqld (33191) < pwrite res=65536 data= 
+398604 13:09:01.405852133 2 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=65536 pos=131072 
+398612 13:09:01.405875939 2 mysqld (33191) < pwrite res=65536 data= 
+398964 13:09:01.408326996 3 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=65536 pos=0 
+398971 13:09:01.408357228 3 mysqld (33191) < pwrite res=65536 data= 
+399386 13:09:01.411050179 4 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=65536 pos=65536 
+399392 13:09:01.411081133 4 mysqld (33191) < pwrite res=65536 data= 
+399995 13:09:01.414629881 2 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=32768 pos=131072 
+399998 13:09:01.414674857 2 mysqld (33191) < pwrite res=32768 data= 
+445454 13:09:02.507909411 3 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=1024 pos=29939712 
+445502 13:09:02.507940855 3 mysqld (33196) < pwrite res=1024 data= 
+445517 13:09:02.507957595 3 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29940736 
+445518 13:09:02.507959149 3 mysqld (33196) < pwrite res=512 data= 
+445519 13:09:02.507961394 3 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29940736 
+445520 13:09:02.507962326 3 mysqld (33196) < pwrite res=512 data= 
+445521 13:09:02.507963760 3 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29940736 
+445522 13:09:02.507964932 3 mysqld (33196) < pwrite res=512 data= 
+445546 13:09:02.508038478 3 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29940736 
+445547 13:09:02.508054456 3 mysqld (33196) < pwrite res=512 data= 
+445548 13:09:02.508057904 3 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29941248 
+445549 13:09:02.508058766 3 mysqld (33196) < pwrite res=512 data= 
+445651 13:09:02.509735433 3 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29941248 
+445657 13:09:02.509767379 3 mysqld (33196) < pwrite res=512 data= 
+445660 13:09:02.509781612 3 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=8192 pos=29941760 
+445666 13:09:02.509799274 3 mysqld (33196) < pwrite res=8192 data= 
+445743 13:09:02.510973972 1 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29943808 
+445748 13:09:02.510990872 1 mysqld (33196) < pwrite res=512 data= 
+445794 13:09:02.511568543 1 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29943808 
+445795 13:09:02.511581293 1 mysqld (33196) < pwrite res=512 data= 
+445796 13:09:02.511584401 1 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29944320 
+445797 13:09:02.511585112 1 mysqld (33196) < pwrite res=512 data= 
+445867 13:09:02.513060523 1 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29944320 
+445870 13:09:02.513072682 1 mysqld (33196) < pwrite res=512 data= 
+446054 13:09:02.513892888 1 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29944320 
+446063 13:09:02.513922699 1 mysqld (33196) < pwrite res=512 data= 
+446070 13:09:02.513936722 1 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29944832 
+446072 13:09:02.513937985 1 mysqld (33196) < pwrite res=512 data= 
+446466 13:09:02.518245376 2 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29944832 
+446473 13:09:02.518267839 2 mysqld (33196) < pwrite res=512 data= 
+446757 13:09:02.519485457 3 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29944832 
+446761 13:09:02.519499260 3 mysqld (33196) < pwrite res=512 data= 
+464079 13:09:02.608932927 4 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29944832 
+464092 13:09:02.608964331 4 mysqld (33196) < pwrite res=512 data= 
+549544 13:09:03.404712118 1 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=65536 pos=0 
+549545 13:09:03.404748545 1 mysqld (33191) < pwrite res=65536 data= 
+549632 13:09:03.411754778 1 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=65536 pos=65536 
+549634 13:09:03.411774284 1 mysqld (33191) < pwrite res=65536 data= 
+549807 13:09:03.414049561 2 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=65536 pos=131072 
+549809 13:09:03.414077978 2 mysqld (33191) < pwrite res=65536 data= 
+549947 13:09:03.416708082 3 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=65536 pos=0 
+549949 13:09:03.416732750 3 mysqld (33191) < pwrite res=65536 data= 
+550025 13:09:03.419206289 4 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=32768 pos=65536 
+550027 13:09:03.419256168 4 mysqld (33191) < pwrite res=32768 data= 
+573616 13:09:03.906530051 1 mysqld (33192) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=1536 
+573617 13:09:03.906549728 1 mysqld (33192) < pwrite res=512 data= 
+625859 13:09:04.994936971 2 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=1024 pos=29944832 
+625861 13:09:04.994961359 2 mysqld (33196) < pwrite res=1024 data= 
+625864 13:09:04.994971643 2 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29945856 
+625865 13:09:04.994973077 2 mysqld (33196) < pwrite res=512 data= 
+626645 13:09:05.008751532 5 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29945856 
+626646 13:09:05.008777524 5 mysqld (33196) < pwrite res=512 data= 
+626734 13:09:05.009405219 0 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29945856 
+626741 13:09:05.009423131 0 mysqld (33196) < pwrite res=512 data= 
+626744 13:09:05.009427371 0 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29946368 
+626745 13:09:05.009428664 0 mysqld (33196) < pwrite res=512 data= 
+626837 13:09:05.009602751 5 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29946368 
+626839 13:09:05.009617516 5 mysqld (33196) < pwrite res=512 data= 
+626840 13:09:05.009620654 5 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29946880 
+626841 13:09:05.009621466 5 mysqld (33196) < pwrite res=512 data= 
+627116 13:09:05.011867603 0 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=3072 pos=29946880 
+627117 13:09:05.011879872 0 mysqld (33196) < pwrite res=3072 data= 
+627123 13:09:05.011896221 0 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=8192 pos=29949952 
+627136 13:09:05.011980755 0 mysqld (33196) < pwrite res=8192 data= 
+627139 13:09:05.011988032 0 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29951488 
+627141 13:09:05.011990328 0 mysqld (33196) < pwrite res=512 data= 
+627142 13:09:05.011991560 0 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29952000 
+627143 13:09:05.011992212 0 mysqld (33196) < pwrite res=512 data= 
+627573 13:09:05.014558368 1 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29952000 
+627576 13:09:05.014643069 1 mysqld (33196) < pwrite res=512 data= 
+627699 13:09:05.015888236 0 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29952000 
+627700 13:09:05.015905517 0 mysqld (33196) < pwrite res=512 data= 
+627701 13:09:05.015910820 0 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29952512 
+627702 13:09:05.015911562 0 mysqld (33196) < pwrite res=512 data= 
+628204 13:09:05.019553763 0 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29952512 
+628206 13:09:05.019567516 0 mysqld (33196) < pwrite res=512 data= 
+647871 13:09:05.127768413 5 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29952512 
+647880 13:09:05.127783700 5 mysqld (33196) < pwrite res=512 data= 
+675162 13:09:05.405396983 4 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=65536 pos=131072 
+675163 13:09:05.405456123 4 mysqld (33191) < pwrite res=65536 data= 
+675208 13:09:05.407270077 4 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=65536 pos=0 
+675209 13:09:05.407285944 4 mysqld (33191) < pwrite res=65536 data= 
+675264 13:09:05.408954784 4 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=65536 pos=65536 
+675265 13:09:05.408974902 4 mysqld (33191) < pwrite res=65536 data= 
+675418 13:09:05.412573212 4 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=65536 pos=131072 
+675437 13:09:05.412606972 4 mysqld (33191) < pwrite res=65536 data= 
+675633 13:09:05.414296691 4 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=32768 pos=0 
+675634 13:09:05.414308619 4 mysqld (33191) < pwrite res=32768 data= 
+789755 13:09:06.914452520 2 mysqld (33192) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=512 
+789756 13:09:06.914474011 2 mysqld (33192) < pwrite res=512 data= 
+823120 13:09:07.427613784 4 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=1024 pos=29952512 
+823138 13:09:07.427641410 4 mysqld (33196) < pwrite res=1024 data= 
+823144 13:09:07.427658611 4 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29953536 
+823145 13:09:07.427659583 4 mysqld (33196) < pwrite res=512 data= 
+823314 13:09:07.428848875 4 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29953536 
+823317 13:09:07.428867038 4 mysqld (33196) < pwrite res=512 data= 
+823684 13:09:07.431642604 2 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29953536 
+823686 13:09:07.431676094 2 mysqld (33196) < pwrite res=512 data= 
+823733 13:09:07.432277649 3 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29953536 
+823737 13:09:07.432297807 3 mysqld (33196) < pwrite res=512 data= 
+823739 13:09:07.432304683 3 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29954048 
+823741 13:09:07.432306578 3 mysqld (33196) < pwrite res=512 data= 
+824078 13:09:07.434705722 3 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29954048 
+824103 13:09:07.434737939 3 mysqld (33196) < pwrite res=512 data= 
+824372 13:09:07.436172972 3 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29954048 
+824375 13:09:07.436192077 3 mysqld (33196) < pwrite res=512 data= 
+824385 13:09:07.436227902 3 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29954560 
+824386 13:09:07.436230789 3 mysqld (33196) < pwrite res=512 data= 
+824845 13:09:07.438989296 1 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29954560 
+824856 13:09:07.439039405 1 mysqld (33196) < pwrite res=512 data= 
+847315 13:09:07.542525856 0 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29954560 
+847330 13:09:07.542545573 0 mysqld (33196) < pwrite res=512 data= 
+945203 13:09:08.404805763 4 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=65536 pos=65536 
+945204 13:09:08.404837679 4 mysqld (33191) < pwrite res=65536 data= 
+945717 13:09:08.411747203 4 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=65536 pos=131072 
+945723 13:09:08.411788200 4 mysqld (33191) < pwrite res=65536 data= 
+946079 13:09:08.414439360 1 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=65536 pos=0 
+946080 13:09:08.414475235 1 mysqld (33191) < pwrite res=65536 data= 
+1016207 13:09:08.916015853 1 mysqld (33192) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=1536 
+1016213 13:09:08.916041734 1 mysqld (33192) < pwrite res=512 data= 
+1045071 13:09:09.337521535 4 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=1024 pos=29954560 
+1045076 13:09:09.337556408 4 mysqld (33196) < pwrite res=1024 data= 
+1045082 13:09:09.337572977 4 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29955584 
+1045091 13:09:09.337641650 5 mysqld (33196) < pwrite res=512 data= 
+1045276 13:09:09.341052803 2 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29955584 
+1045278 13:09:09.341081752 2 mysqld (33196) < pwrite res=512 data= 
+1045402 13:09:09.342698809 2 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=1024 pos=29955584 
+1045409 13:09:09.342719488 2 mysqld (33196) < pwrite res=1024 data= 
+1045414 13:09:09.342734905 2 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29956608 
+1045416 13:09:09.342735897 2 mysqld (33196) < pwrite res=512 data= 
+1045521 13:09:09.345001695 2 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29956608 
+1045526 13:09:09.345018855 2 mysqld (33196) < pwrite res=512 data= 
+1045573 13:09:09.345925966 2 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=1024 pos=29956608 
+1045576 13:09:09.345946174 2 mysqld (33196) < pwrite res=1024 data= 
+1045583 13:09:09.345966984 2 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29957632 
+1045584 13:09:09.345968407 2 mysqld (33196) < pwrite res=512 data= 
+1046011 13:09:09.349552452 2 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29957632 
+1046014 13:09:09.349581211 2 mysqld (33196) < pwrite res=512 data= 
+1058405 13:09:09.417595723 2 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29957632 
+1058452 13:09:09.417624421 2 mysqld (33196) < pwrite res=512 data= 
+1058475 13:09:09.417635347 2 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=8192 pos=29958144 
+1058486 13:09:09.417647947 2 mysqld (33196) < pwrite res=8192 data= 
+1060179 13:09:09.434338460 2 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29958144 
+1060186 13:09:09.434391556 2 mysqld (33196) < pwrite res=512 data= 
+1152730 13:09:10.304579084 1 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29958144 
+1152738 13:09:10.304606770 1 mysqld (33196) < pwrite res=512 data= 
+1152743 13:09:10.304622116 1 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29958656 
+1152745 13:09:10.304623269 1 mysqld (33196) < pwrite res=512 data= 
+1152971 13:09:10.309796284 1 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29958656 
+1152976 13:09:10.309823157 1 mysqld (33196) < pwrite res=512 data= 
+1152980 13:09:10.309831357 1 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29959168 
+1152981 13:09:10.309832249 1 mysqld (33196) < pwrite res=512 data= 
+1153138 13:09:10.312435898 3 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29959168 
+1153140 13:09:10.312465047 3 mysqld (33196) < pwrite res=512 data= 
+1153167 13:09:10.312797305 3 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29959168 
+1153168 13:09:10.312804783 3 mysqld (33196) < pwrite res=512 data= 
+1153169 13:09:10.312806968 3 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29959680 
+1153170 13:09:10.312807760 3 mysqld (33196) < pwrite res=512 data= 
+1153521 13:09:10.316177105 3 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29959680 
+1153522 13:09:10.316206264 3 mysqld (33196) < pwrite res=512 data= 
+1157549 13:09:10.343856431 4 mysqld (33196) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=29959680 
+1157552 13:09:10.343875938 4 mysqld (33196) < pwrite res=512 data= 
+1367631 13:09:12.410121729 0 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=65536 pos=65536 
+1367632 13:09:12.410168601 0 mysqld (33191) < pwrite res=65536 data= 
+1367688 13:09:12.412262207 1 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=65536 pos=131072 
+1367694 13:09:12.412276952 1 mysqld (33191) < pwrite res=65536 data= 
+1367849 13:09:12.414254685 1 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=65536 pos=0 
+1367850 13:09:12.414281268 1 mysqld (33191) < pwrite res=65536 data= 
+1367911 13:09:12.415678394 1 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=65536 pos=65536 
+1367912 13:09:12.415693079 1 mysqld (33191) < pwrite res=65536 data= 
+1368054 13:09:12.417999421 1 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=65536 pos=131072 
+1368056 13:09:12.418064816 1 mysqld (33191) < pwrite res=65536 data= 
+1368196 13:09:12.421016861 1 mysqld (33191) > pwrite fd=10(<f>/var/lib/mysql/#ib_16384_0.dblwr) size=32768 pos=0 
+1368199 13:09:12.421031225 1 mysqld (33191) < pwrite res=32768 data= 
+1378538 13:09:12.919081158 1 mysqld (33192) > pwrite fd=4(<f>/var/lib/mysql/ib_logfile0) size=512 pos=512 
+1378543 13:09:12.919111560 1 mysqld (33192) < pwrite res=512 data= 
