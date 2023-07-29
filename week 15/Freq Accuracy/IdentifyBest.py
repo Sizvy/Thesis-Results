@@ -1,6 +1,14 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import os
+import matplotlib as mpl
+
+# Set the font size for various elements
+mpl.rcParams['axes.labelsize'] = 16
+mpl.rcParams['axes.titlesize'] = 16
+mpl.rcParams['xtick.labelsize'] = 12
+mpl.rcParams['ytick.labelsize'] = 14
+mpl.rcParams['legend.fontsize'] = 16
 
 for field in range(1,7):
 # field=2
@@ -242,9 +250,10 @@ for field in range(1,7):
     plt.plot(X, Precision, label = "Precision", linestyle='--')
     plt.plot(X, Recall, label = "Recall",linestyle=':')
     plt.plot(X, F1_Score, label = "F1 Score", linestyle='-')
-    plt.xlabel('Set of Syscalls', fontsize=15)
-    plt.ylabel('Metrics value', fontsize=15)
+    plt.xlabel('Set of Syscalls', fontsize=16)
+    plt.ylabel('Metrics value', fontsize=16)
     plt.title('Impact of Each System call with Modified field='+str(field))
     plt.legend(fontsize=12)
+    plt.tight_layout()
     plt.show()
-
+    # plt.savefig('ImpactOfEachSysCallM'+str(field), dpi = 300)

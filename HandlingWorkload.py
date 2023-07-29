@@ -54,13 +54,13 @@ def categorize_file(data):
         #     print(serial_difference, time_difference.seconds)
         if serial_difference > 40000:
             if time_difference.seconds <= 0:
-                if(time_difference.microseconds < 450000):
+                if(time_difference.microseconds < 999999):
                     print('Malicious')
                     return
             
 
 # Iterate all files from a directory
-sourceFolder = r'E:\study materials\\Everything of 4-1\\All works about thesis\\UnknownWeek 1\\write\\'
+sourceFolder = r'E:\study materials\\Everything of 4-1\\All works about thesis\\UnknownWeek 1\\io_submit\\'
 for file_name in os.listdir(sourceFolder):
     print(file_name)
     sourceFile = sourceFolder + file_name

@@ -1,5 +1,13 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib as mpl
+
+# Set the font size for various elements
+mpl.rcParams['axes.labelsize'] = 16
+mpl.rcParams['axes.titlesize'] = 16
+mpl.rcParams['xtick.labelsize'] = 12
+mpl.rcParams['ytick.labelsize'] = 14
+mpl.rcParams['legend.fontsize'] = 16
 
 def caluclateMetrics(tp, tn, fp, fn):
     accuracy = (tp + tn) / (tp + tn + fp + fn)
@@ -32,9 +40,10 @@ plt.plot(x, Accuracy, label = "Accuracy", linestyle='-.')
 plt.plot(x, Precision, label = "Precision", linestyle='--')
 plt.plot(x, Recall, label = "Recall", linestyle=':')
 plt.plot(x, F1_Score, label = "F1 Score",linestyle='-')
-plt.xlabel('Number of Impacted Field', fontsize=15)
-plt.ylabel('Metrics Values', fontsize=15)
+plt.xlabel('Number of Impacted Field', fontsize=16)
+plt.ylabel('Metrics Values', fontsize=16)
 plt.title('Metrics vs Impact Field using Frequency')
 plt.legend(fontsize=12)
+plt.tight_layout()
 plt.show()
 

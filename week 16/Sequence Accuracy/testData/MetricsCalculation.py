@@ -1,5 +1,13 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib as mpl
+
+# Set the font size for various elements
+mpl.rcParams['axes.labelsize'] = 16
+mpl.rcParams['axes.titlesize'] = 16
+mpl.rcParams['xtick.labelsize'] = 12
+mpl.rcParams['ytick.labelsize'] = 14
+mpl.rcParams['legend.fontsize'] = 16
 X=[]
 AccuracyY=[]
 PrecisionY=[]
@@ -206,9 +214,10 @@ plt.plot(X, AccuracyY, label = "Accuracy", linestyle='-.')
 plt.plot(X, PrecisionY, label = "Precision", linestyle='-')
 plt.plot(X, RecallY, label = "Recall", linestyle=':')
 plt.plot(X, F1ScoreY, label = "F1 Score", linestyle='--')
-plt.xlabel('Bag Size', fontsize = 15)
-plt.ylabel('Metric Value', fontsize = 15)
-plt.title('Bag Size vs Metric Values', fontsize = 12)
-plt.legend(fontsize = 12)
+plt.xlabel('Bag Size', fontsize = 16)
+plt.ylabel('Metric Value', fontsize = 16)
+plt.title('Bag Size vs Metric Values')
+plt.legend()
+plt.tight_layout()
 plt.show()
 
